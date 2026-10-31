@@ -20,14 +20,18 @@ body {
 }
 .container {
   font-family: Avenir, Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header {
   background: deepskyblue;
+  flex: 1 0 100%;
 }
 
 nav {
   background: lightskyblue;
+  flex: 1 0 200px;
 }
 nav a {
   display: block;
@@ -36,12 +40,15 @@ nav a {
 
 main {
   background: dodgerblue;
+  flex: 1 1 500px;
 }
 
 aside {
   background: royalblue;
+  flex: 1 0 200px;
 }
 
 footer {
   background: steelblue;
+  flex: 1 0 100%;
 }
